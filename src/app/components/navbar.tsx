@@ -8,7 +8,7 @@ export default function NavBar() {
                     <div className="container mx-auto flex justify-between items-center p-4">
                         <div className="flex items-center font-black text-[25px]">
                         <Image 
-                src="https://avatars.githubusercontent.com/u/181518795?s=200&v=4" // Externe Bild-URL
+                src="https://avatars.githubusercontent.com/u/181518795?s=400&u=12f7bf9ff95faee4c6c94198f25ba7716613757f&v=4" // Externe Bild-URL
                 alt="Beispielbild" 
                 width={50} // Breite auf 50px setzen
                 height={50} // Höhe auf 50px setzen
