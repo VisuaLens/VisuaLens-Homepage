@@ -17,13 +17,13 @@ export default function NavBar() {
                         </div>
                         <div className="text-[15px]">
                             <ul className="flex items-center space-x-6">
-                                <li><a href="">Home</a></li>
-                                <li><a href="">Pricing</a></li>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Contact Us</a></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="pricing">Pricing</a></li>
+                                <li><a href="about">About Us</a></li>
+                                <li><a href="contact">Contact Us</a></li>
                                 <li>
                                     <button className="bg-white text-black py-2 px-4 rounded-md font-bold">
-                                        <a href="google.com">Contribute</a>
+                                        <a href="contribute">Contribute</a>
                                     </button>
                                 </li>
                             </ul>
