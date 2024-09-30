@@ -9,7 +9,7 @@ export default function Home() {
       </header>
       <main>
         <section>
-          <div classsName="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-8 mb-16">
+          <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-8 mb-16">
             <div className="flex flex-col max-w-xl lg:max-w-2xl">
               <label
                 data-melt-label=""
@@ -52,6 +52,8 @@ export default function Home() {
         <section></section>
         <section></section>
       </main>
+
+      
       <footer>
         <Footer />
       </footer>

@@ -1,12 +1,12 @@
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
 
-export default function contribute() {
+export default function about() {
   return (
     <>
     <header><NavBar /></header>
-    <main>
-      <h1>contribute</h1>
+    <main className="flex h-screen justify-center items-center">
+      <h1>contact</h1>
     </main>
     <footer><Footer /></footer>
     </>
