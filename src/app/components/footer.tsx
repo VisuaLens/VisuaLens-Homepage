@@ -29,7 +29,7 @@ export default function Footer() {
               <h5 className="font-semibold mb-4">Support</h5>
               <ul className="space-y-2">
                 <li><Link href="/faq" className="text-sm text-gray-600 hover:text-gray-900">FAQ</Link></li>
-                <li><a href="mailto:pear@trypear.ai" className="text-sm text-gray-600 hover:text-gray-900">Email</a></li>
+                <li><a href="mailto:support@viusalens.org" className="text-sm text-gray-600 hover:text-gray-900">Email</a></li>
                 <li><a href="https://discord.gg/7QMraJUsQt" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-gray-900">Discord</a></li>
               </ul>
             </div>
