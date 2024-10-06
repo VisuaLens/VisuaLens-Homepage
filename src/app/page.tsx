@@ -31,7 +31,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mt-6 max-w-lg text-lg font-medium text-gray-500 sm:text-xl">
-                  <p>Delivering the world's fastest and most intuitive AI-powered code editor, enabling developers to accelerate their coding experience.</p>
+                  <p>Delivering the worlds fastest and most intuitive AI-powered code editor, enabling developers to accelerate their coding experience.</p>
                 </div>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function Home() {
               <div className="w-full lg:w-[800px]">
                 <div className="relative w-full pt-[66.6667%]">
                   <Image
-                    src={`https://picsum.photos/seed/${section.imageId}/800/533`}
+                    src={"https://picsum.photos/800/533"}
                     alt={section.title}
                     layout="fill"
                     objectFit="cover"
