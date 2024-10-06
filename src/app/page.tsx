@@ -18,7 +18,7 @@ export default function Home() {
                     <svg xmlns="http://www.w3.org/2000/svg" width="26" height="47" fill="none" viewBox="0 0 33 54" className="mb-4 mr-2 inline-flex">
                       {/* SVG path data remains unchanged */}
                     </svg>
-                    <span className="text-primary-700">PearAI: </span>The Open Source AI‑Powered Code Editor
+                    <span className="text-primary-700">PearAI: </span>The Open Source AIPowered Code Editor
                   </div>
                   <div className="block items-start sm:hidden">
                     <div>
@@ -27,7 +27,7 @@ export default function Home() {
                       </svg>
                       <span className="text-primary-700">PearAI </span>
                     </div>
-                    <span className="flex flex-col text-3xl"><span>The Open Source</span> <span>AI‑Powered Code Editor</span></span>
+                    <span className="flex flex-col text-3xl"><span>The Open Source</span> <span>AIPowered Code Editor</span></span>
                   </div>
                 </div>
                 <div className="mt-6 max-w-lg text-lg font-medium text-gray-500 sm:text-xl">
@@ -55,6 +55,8 @@ export default function Home() {
                 "Planned Stable Release (1.0): March 2025",
                 "Development Status: Active",
                 "<a href='https://www.github.com/VisuaLens/VisuaLens.git' className='text-primary-600'>GitHub Repository</a>"
+                  .replace(/&/g, '&amp;')
+                  .replace(/'/g, '&apos;')
               ],
               imageId: "2"
             },

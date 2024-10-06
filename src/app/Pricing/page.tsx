@@ -1,7 +1,7 @@
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
 
-export default function about() {
+export default function About() {
   return (
     <>
       <header>
@@ -82,7 +82,6 @@ export default function about() {
                         <path d="M20 6 9 17l-5-5"></path>
                       </svg>
                       No Premium support 
-                      <span className="text-[0.25rem]"></span>
                     </li>
                     <li className="flex items-center">
                       <svg
@@ -99,7 +98,7 @@ export default function about() {
                       >
                         <path d="M20 6 9 17l-5-5"></path>
                       </svg>
-                      Cool Guys donate on <span><a href="" className="text-blue-500">Patreon</a></span>
+                      Cool Guys donate on <span><a href="https://www.patreon.com/" className="text-blue-500">Patreon</a></span>
                     </li>
                   </ul>
                 </div>
@@ -107,7 +106,7 @@ export default function about() {
                   <button
                     type="button"
                     className="border border-gray-600 ring-offset-background focus-visible:ring-ring inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full hover:bg-gray-200 hover:text-black hover:text-bold"
-                    data-button-root=""
+                    onClick={() => alert("Navigating to Pro Tier signup")}
                   >
                     Go Pro
                   </button>
@@ -118,7 +117,11 @@ export default function about() {
               <p className="text-lg mb-4">
                 Still not convinced? Why? We are free.
               </p>
-              <button type="button" className="ring-offset-background focus-visible:ring-ring inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 underline-offset-4 hover:underline h-10 px-4 py-2 text-primary" data-button-root="">
+              <button 
+                type="button" 
+                className="ring-offset-background focus-visible:ring-ring inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 underline-offset-4 hover:underline h-10 px-4 py-2 text-primary" 
+                onClick={() => alert("Navigating to more pricing info")}
+              >
                 Learn more about our pricing
               </button>
             </div>

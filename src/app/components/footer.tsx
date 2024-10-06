@@ -1,9 +1,8 @@
 import Link from 'next/link';
 
-
 export default function Footer() {
   return (
-    <footer className="w-full py-8 border-t border-b border-gray-700">
+    <footer className="w-full py-8 border-t border-b border-gray-700" aria-label="Footer Navigation">
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 text-center sm:text-left mx-auto">
@@ -30,9 +29,6 @@ export default function Footer() {
               <h5 className="font-semibold mb-4">Support</h5>
               <ul className="space-y-2">
                 <li><Link href="/faq" className="text-sm text-gray-600 hover:text-gray-900">FAQ</Link></li>
-
-                <li><a href="mailto:support@viusalens.org" className="text-sm text-gray-600 hover:text-gray-900">Email</a></li>
-
                 <li><a href="mailto:support@visualens.org" className="text-sm text-gray-600 hover:text-gray-900">Email</a></li>
                 <li><a href="https://discord.gg/7QMraJUsQt" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-gray-900">Discord</a></li>
               </ul>
@@ -43,6 +39,6 @@ export default function Footer() {
       <div className="text-center mt-8">
         <p className="text-sm text-gray-600">© 2024 VisuaLens Inc.</p>
       </div>
-    </ footer>
+    </footer>
   );
 }
