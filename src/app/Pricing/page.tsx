@@ -115,7 +115,7 @@ export default function About() {
             </div>
             <div className="text-center mt-12">
               <p className="text-lg mb-4">
-                Still not convinced? Why? We are free.
+                Still not convinced? I dont fucking care. 
               </p>
               <button 
                 type="button" 
