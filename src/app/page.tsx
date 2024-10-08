@@ -18,20 +18,20 @@ export default function Home() {
                     <svg xmlns="http://www.w3.org/2000/svg" width="26" height="47" fill="none" viewBox="0 0 33 54" className="mb-4 mr-2 inline-flex">
                       {/* SVG path data remains unchanged */}
                     </svg>
-                    <span className="text-primary-700">PearAI: </span>The Open Source AIPowered Code Editor
+                    <span className="text-primary-700">VisuaLens: </span>The Open Source Analytic Powerhouse
                   </div>
                   <div className="block items-start sm:hidden">
                     <div>
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="47" fill="none" viewBox="0 0 33 54" className="mb-3 mr-2 inline-flex">
                         {/* SVG path data remains unchanged */}
                       </svg>
-                      <span className="text-primary-700">PearAI </span>
+                      <span className="text-primary-700">VisuaLens </span>
                     </div>
-                    <span className="flex flex-col text-3xl"><span>The Open Source</span> <span>AIPowered Code Editor</span></span>
+                    <span className="flex flex-col text-3xl"><span>The Open Source</span> <span> Blazingly Fast Analytics-Tool</span></span>
                   </div>
                 </div>
                 <div className="mt-6 max-w-lg text-lg font-medium text-gray-500 sm:text-xl">
-                  <p>Delivering the worlds fastest and most intuitive AI-powered code editor, enabling developers to accelerate their coding experience.</p>
+                  <p>Delivering the worlds fastes Analytic Powerhouse, enabling Developers, Businesses and Hobbyist to perfect their User Experience</p>
                 </div>
               </div>
             </div>
